@@ -19,4 +19,5 @@
 
 # How to create build
 - npm i tsup -D
--
+- add in package.json "build": "tsup src --out-dir build"
+- npm run build
